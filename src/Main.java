@@ -5,5 +5,11 @@ public class Main {
         String helloWorld = "Hello Java!";
 
         System.out.println(helloWorld);
+        System.out.println(helloWorld.charAt(0)+"ow are you?");
+
+        float funkyFloat = 23.99f;
+        int ohNoInt = (int) (funkyFloat+0.01f);// Add 0.01 to funkyFloat, then convert the sum to an int
+        System.out.println(ohNoInt);
+
     }
 }
