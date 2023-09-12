@@ -12,3 +12,16 @@ if(remainder==0){  // Practically, a switch statement might be better here
     System.out.println("Odd");
 }
 ```
+
+### Refined code
+_untested_
+```Java
+float eooInput = 50f;
+float remainder = eooInput % 2;
+boolean eoo = remainder = 0;
+if(eoo){
+    System.out.println("Even");
+} else {
+    System.out.println("Odd");
+}
+```
