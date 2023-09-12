@@ -32,7 +32,10 @@ public class Main {
             System.out.println("Odd");
         }
 
-        /* Switch Statements */
+        /* Switch Statements
+        Don't use with floats, rounding errors
+        Best with enums
+         */
 
         int medalPlacement = 1;
 
