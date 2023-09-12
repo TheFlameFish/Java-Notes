@@ -13,6 +13,8 @@ public class Main {
         int ohNoInt = (int) (funkyFloat+0.01f);// Add 0.01 to funkyFloat, then convert the sum to an int
         System.out.println(ohNoInt);
 
+        /* Inputs */
+
         /*
         Scanner scanner = new Scanner(System.in);
         System.out.println("What is your name?");
@@ -21,13 +23,24 @@ public class Main {
         System.out.println("Hello, "+input+"!");
          */
 
-        // Even or odd
+        // If and remainders
         float eooInput = 50f;
         float remainder = eooInput % 2;
-        if(remainder==0){
+        if(remainder==0){  // Practically, a switch statement might be better here
             System.out.println("Even");
         } else {
             System.out.println("Odd");
+        }
+
+        /* Switch Statements */
+
+        int medalPlacement = 1;
+
+        switch (medalPlacement) {
+            case 1: System.out.println("GOLD"); break;
+            case 2: System.out.println("SILVER"); break;
+            case 3: System.out.println("BRONZE"); break;
+            default: System.out.println("NO MEDAL"); break; // Loser
         }
     }
 }
