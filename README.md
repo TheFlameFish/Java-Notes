@@ -6,3 +6,5 @@ Basically my version of a notepad :)
 ###  This'll be practically useless to anybody who:  
 * Knows Java
 * Isn't me
+
+Main.java will change very frequently. Important programs (exercises and such) will have their own dir.
