@@ -13,10 +13,21 @@ public class Main {
         int ohNoInt = (int) (funkyFloat+0.01f);// Add 0.01 to funkyFloat, then convert the sum to an int
         System.out.println(ohNoInt);
 
+        /*
         Scanner scanner = new Scanner(System.in);
         System.out.println("What is your name?");
         String input = scanner.nextLine();
 
         System.out.println("Hello, "+input+"!");
+         */
+
+        // Even or odd
+        float eooInput = 50f;
+        float remainder = eooInput % 2;
+        if(remainder==0){
+            System.out.println("Even");
+        } else {
+            System.out.println("Odd");
+        }
     }
 }
