@@ -82,7 +82,7 @@ public static void main(String[] args) {
 
         switch (score) {
             case 3: System.out.println("You got all 3 questions correct. Congrats."); break;
-            case 2: System.out.println("You got 2 questions correct. Descent."); break;
+            case 2: System.out.println("You got 2 questions correct. Decent."); break;
             case 1: System.out.println("You got only 1 question correct."); break;
             case 0: System.out.println("You failed miserably."); break;
             default: System.out.println("Something went horribly wrong."); break;
