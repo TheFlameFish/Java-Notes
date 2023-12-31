@@ -114,4 +114,4 @@ In what Minecraft update were llamas added?\
 1.6\
 _0_\
 Incorrect.\
-You got 2 questions correct. Descent.  
+You got 2 questions correct. Decent.  
